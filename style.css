@@ -18,7 +18,7 @@ html{
 .aside-wrap{
     width:240px;
     height:100%;
-    background-image: linear-gradient(to bottom right, red,black);
+    background-image: linear-gradient(to bottom right, var(--primary),black);
     padding: 100px 20px;
     position: fixed;
 }
@@ -29,6 +29,13 @@ html{
     font-size: 20px;
     font-family:sans-serif;
     box-sizing: border-box;
+}
+
+:root{
+    --primary:#C94666;
+    --secondary:#78293d;
+    --hover:#5E2130;
+    --dark:#17080C;
 }
 
 .profile-img{
@@ -63,13 +70,13 @@ margin-top: 20px;
 }
 #home .email-link{
     text-transform: uppercase;
-    color: red;
+    color: var(--primary);
     text-decoration: none;
 }
 
 .social-links li{
     display: inline-block;
-    background-color: red;
+    background-color: var(--secondary);
     margin-right: 10px;
 }
 
