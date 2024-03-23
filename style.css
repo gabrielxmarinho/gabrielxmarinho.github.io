@@ -87,6 +87,10 @@ margin-top: 20px;
     font-size: 26px;
     text-decoration: none;
 }
+
+.menu-label, #menu-check{
+    display: none;
+}
 @media (max-width: 600px){
     .profile-img{
         display: none;
@@ -124,5 +128,7 @@ margin-top: 20px;
         right: 0;
         background-color: #fff;
         margin: 5px;
+        z-index: 1;
+        font-size: 20px;
     } 
 }
